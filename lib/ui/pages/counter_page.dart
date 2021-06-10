@@ -12,7 +12,7 @@ class CounterPage extends StatefulWidget {
 }
 
 class _CounterPageState extends State<CounterPage> {
-  int _counter = 0;
+  int _counter = 5;
 
   void _incrementCounter() {
     setState(() {
