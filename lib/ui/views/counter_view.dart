@@ -14,8 +14,8 @@ class _CounterViewState extends State<CounterView> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
+    
     if(int.tryParse(widget.base) != null){
       _counter = int.parse(widget.base);
     }
